@@ -7,7 +7,7 @@ categories: ["Annotation", "Segmentation", "Acquisition"]
 contributions:
   commands:
     - id: multimodal-cellular-processing.widget
-      python_name: multimodal_cellular_processing._widget:example_widget
+      python_name: multimodal_cellular_processing._widget:multimodal_cellular_processing
       title: Multimodal Cellular Processing
 
   widgets:

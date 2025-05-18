@@ -93,7 +93,7 @@ class IntensityNormalization(QGroupBox):
         self.viewer.add_image(output, name=f'{self.modality_name}_normalized')
 
 
-class MultimodalCellularAnalysisWidget(QWidget):
+class multimodal_cellular_processing(QWidget):
     def __init__(self, viewer: "napari.viewer.Viewer"):
         super().__init__()
         self.viewer = viewer
