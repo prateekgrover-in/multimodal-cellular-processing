@@ -1,3 +1,9 @@
+# TODO by August 3rd.
+
+- Update with latest code.
+- Setup instructions for installing Napari, its dependencies and launching the program.
+
+
 # multimodal-cellular-processing
 
 [![License MIT](https://img.shields.io/pypi/l/multimodal-cellular-processing.svg?color=green)](https://github.com/prateekgrover-in/multimodal-cellular-processing/raw/main/LICENSE)
