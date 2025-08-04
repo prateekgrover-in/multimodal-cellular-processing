@@ -63,6 +63,7 @@ napari
 ```
 Note: The first load may take some time. Please be patient.
 
+<!--
 # multimodal-cellular-processing
 
 [![License MIT](https://img.shields.io/pypi/l/multimodal-cellular-processing.svg?color=green)](https://github.com/prateekgrover-in/multimodal-cellular-processing/raw/main/LICENSE)
@@ -80,13 +81,13 @@ Napari Plugin for Analysing Cell Cultures with Microscopy and Impedance Data tai
 
 This [napari] plugin was generated with [copier] using the [napari-plugin-template].
 
-<!--
+
 Don't miss the full getting started guide to set up your new package:
 https://github.com/napari/napari-plugin-template#getting-started
 
 and review the napari docs for plugin developers:
 https://napari.org/stable/plugins/index.html
--->
+
 
 ## Installation
 
@@ -125,6 +126,7 @@ If you encounter any problems, please [file an issue] along with a detailed desc
 [Apache Software License 2.0]: http://www.apache.org/licenses/LICENSE-2.0
 [Mozilla Public License 2.0]: https://www.mozilla.org/media/MPL/2.0/index.txt
 [napari-plugin-template]: https://github.com/napari/napari-plugin-template
+-->
 
 [file an issue]: https://github.com/prateekgrover-in/multimodal-cellular-processing/issues
 
