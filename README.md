@@ -1,8 +1,67 @@
-# TODO by August 3rd.
+# Source Code for Multimodal-Cellular-Processing Plugin (Incomplete Docs)
 
-- Update with latest code.
-- Setup instructions for installing Napari, its dependencies and launching the program.
+This repository contains source code for analyzing cell cultures using microscopy and impedance data, tailored to the experimental setup at imec.
 
+## Prerequisites
+
+1. Python Installation
+
+To use this application, you need to have Python installed.
+
+- **Windows**: Open PowerShell  
+- **Mac**: Open Terminal  
+
+Check your installation by running:
+
+```bash
+python --version
+```
+
+If the command is not recognized, download and install Python from https://www.python.org
+
+2. Install Napari and Dependencies
+Install the Napari plugin along with its dependencies using the following command:
+
+```bash
+python -m pip install "napari[all]"
+```
+For more details, refer to the Napari installation guide
+
+3. Install Required Packages
+Run the following commands to install the specific packages used in this project:
+
+```bash
+pip install roifile
+pip install cellpose==3.1.1.2
+pip install matplotlib
+```
+
+4. Install the Plugin
+Download or clone this repository using the buttons on the GitHub page or with Git (if you've a GitHub account and key set up):
+
+```bash
+git clone <repository-url>
+```
+
+Move into downloaded directory
+
+```bash
+cd multimodal-cellular-processing
+```
+
+Then install the plugin in editable mode:
+
+```bash
+pip install -e .
+```
+
+5. Launch the Application
+Start Napari by running:
+
+```bash
+napari
+```
+Note: The first load may take some time. Please be patient.
 
 # multimodal-cellular-processing
 
