@@ -1,4 +1,10 @@
-# Source Code for Multimodal-Cellular-Processing Plugin (Incomplete Docs)
+# TODO
+
+1. Divide modules into separate files, confirm installation on fresh system.
+2. Guide generic sizes for import.
+3. Add references to presentation and thesis.
+
+# Source Code for Multimodal-Cellular-Processing Plugin
 
 This repository contains source code for analyzing cell cultures using microscopy and impedance data, tailored to the experimental setup at imec.
 
