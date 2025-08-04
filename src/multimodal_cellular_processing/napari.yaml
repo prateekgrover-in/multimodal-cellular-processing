@@ -5,11 +5,46 @@ visibility: public
 # see https://napari.org/stable/plugins/technical_references/manifest.html#fields for valid categories
 categories: ["Annotation", "Segmentation", "Acquisition"]
 contributions:
-  commands:
-    - id: multimodal-cellular-processing.widget
-      python_name: multimodal_cellular_processing._widget:multimodal_cellular_processing
-      title: Multimodal Cellular Processing
+ commands:
+  - id: multimodal-cellular-processing.dataupload
+    python_name: multimodal_cellular_processing._widget:DataUploadWidget
+    title: Data Upload
 
-  widgets:
-    - command: multimodal-cellular-processing.widget
-      display_name: Multimodal Cellular Processing
+  - id: multimodal-cellular-processing.threshsegmentation
+    python_name: multimodal_cellular_processing._widget:ThresholdSegmentationWidget
+    title: Threshold-based Segmentation
+
+  - id: multimodal-cellular-processing.dlsegmentation
+    python_name: multimodal_cellular_processing._widget:DeepLearningSegmentationWidget
+    title: Deep Learning Segmentation
+
+  - id: multimodal-cellular-processing.finetuningsegmentation
+    python_name: multimodal_cellular_processing._widget:FinetuningSegmentationModelWidget
+    title: Finetuning Segmentation Model
+
+  - id: multimodal-cellular-processing.celltocellassociation
+    python_name: multimodal_cellular_processing._widget:CellToCellAssociationWidget
+    title: Cell-to-Cell Association
+
+  - id: multimodal-cellular-processing.lineage
+    python_name: multimodal_cellular_processing._widget:LineageWidget
+    title: Visualise Lineage
+
+ widgets:
+  - command: multimodal-cellular-processing.dataupload
+    display_name: Data Upload
+
+  - command: multimodal-cellular-processing.threshsegmentation
+    display_name: Threshold-based Segmentation
+
+  - command: multimodal-cellular-processing.dlsegmentation
+    display_name: Deep Learning Segmentation
+
+  - command: multimodal-cellular-processing.finetuningsegmentation
+    display_name: Finetuning Segmentation Model
+
+  - command: multimodal-cellular-processing.celltocellassociation
+    display_name: Cell-to-Cell Association
+
+  - command: multimodal-cellular-processing.lineage
+    display_name: Visualise Lineage
